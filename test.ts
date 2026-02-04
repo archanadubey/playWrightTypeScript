@@ -33,7 +33,9 @@ function greetingMessage(greet:string, name ?:string):string{
 }
 
 const greetMsg = greetingMessage("Good Morning ","Archana");
+const greetMsgNoName = greetingMessage("Good Morning ");
 console.log(greetMsg); // Output: "Good Morning Archana"
+console.log(greetMsgNoName); // Output: "Good Morning ."
 
 // implement this into code 
 type AddFunction = (a: number, b: number) => number;
